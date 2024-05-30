@@ -13,8 +13,6 @@ class Solution {
 		int left = 0;
 		int right = k - 1;
 		int p = 0;
-
-		 //comment form branch one
 		while (right < nums.length){
 			result[p++] = maxHeap.peek();
 			maxHeap.remove(nums[left++]);
